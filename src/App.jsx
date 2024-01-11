@@ -41,6 +41,7 @@ function App() {
     if (promptData && promptData.units) {
       setUnits(promptData.units);
     }
+    console.log(promptData);
   }, [promptData]);
 
   // Handle form submission. Set prompt to user input.

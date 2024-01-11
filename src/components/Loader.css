@@ -1,11 +1,12 @@
 .loader {
   grid-row: 1/-1;
   grid-column: 1/-1;
-  background: hsl(0, 0%, 95%);
+  background: #fbf0f0;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
+  border-radius: 1rem;
 }
 
 .loader p {

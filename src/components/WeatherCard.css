@@ -5,6 +5,8 @@
   padding: 1rem;
   border: 3px solid currentColor;
   border-radius: 1rem;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .weathercard__data {
@@ -23,7 +25,7 @@
   display: flex;
   padding: 3rem;
   justify-content: center;
-  font-size: 8rem;
+  font-size: clamp(56px, 8vw, 120px);
 }
 
 .weathercard__wind {
@@ -66,4 +68,9 @@
   font-size: 2rem;
   width: 7.4rem;
   line-height: 1rem;
+}
+
+.weathercard__btn {
+  display: flex;
+  justify-content: center;
 }

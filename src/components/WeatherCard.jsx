@@ -109,9 +109,11 @@ const WeatherCard = ({
             <span className="screen-reader-text">${data.wind.deg}</span>
           </div>
         </div>
-        <button id="units" onClick={handleUnitChange}>
-          Change units
-        </button>
+        <div className="weathercard__btn">
+          <button id="units" onClick={handleUnitChange}>
+            Change units
+          </button>
+        </div>
       </div>
     </article>
   );
