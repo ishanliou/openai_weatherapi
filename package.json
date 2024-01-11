@@ -2,7 +2,7 @@
   "name": "weatherchat",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/openai_weatherapi",
+  "homepage": "https://ishanliou.github.io/openai_weatherapi",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
